@@ -1,0 +1,12 @@
+user.name=João Gabriel
+user.mail=joao.gaiares@gmail.com
+user.email=joao.gaiares@gmail.com
+core.editor=code --wait
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.origin.url=https://github.com/JoaoGabrielVargas/trybe-exercicios
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.master.remote=origin
+branch.master.merge=refs/heads/master

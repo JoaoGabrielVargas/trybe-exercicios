@@ -1,5 +1,6 @@
 div:hover {
     background-color: brown;
+    border: 1px solid black;
 }
 
 div:nth-of-type(1) {
@@ -13,6 +14,7 @@ div:nth-of-type(2) {
 div:nth-of-type(3) {
     background-color: yellowgreen;
     padding: 10px;
+    height: 100px;
 }
 
 div:nth-of-type(4) {
@@ -28,3 +30,23 @@ div:nth-of-type(1) > h3{
     font-family: fantasy;
 }
 
+div:nth-of-type(2) > h3{
+    color: yellow;
+    font-family: fantasy;
+}
+div:nth-of-type(3) > h3{
+    color: green;
+    font-family: fantasy;
+}
+div:nth-of-type(4) > h3{
+    color: red;
+    font-family: fantasy;
+}
+div:nth-of-type(5) > h3{
+    color: blue;
+    font-family: fantasy;
+}
+
+div:nth-child(odd) h3{
+    font-style: italic;
+}

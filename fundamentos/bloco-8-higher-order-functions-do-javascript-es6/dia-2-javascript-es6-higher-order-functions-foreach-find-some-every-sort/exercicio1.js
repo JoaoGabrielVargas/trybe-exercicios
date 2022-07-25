@@ -83,3 +83,15 @@ function smallerName(books) {
 }
 
 console.log(smallerName(books));
+
+function getNamedBook(books) {
+  // escreva seu código aqui
+ let namedBook;
+  books.forEach((book) => {
+    if (book.name.length === 26) {
+      namedBook = book;
+    }});
+    return namedBook;
+}
+
+console.log(getNamedBook(books));
